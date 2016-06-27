@@ -1,0 +1,33 @@
+{
+  "name": "st-nucleo-f401re-st-ble-gcc",
+  "version": "0.1.3",
+  "inherits": {
+    "st-nucleo-f401re-gcc": "*"
+  },
+  "description": "Compound target: NUCLEO-F401RE plus X-NUCLEO-IDB0XA1.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "toolchain": "CMake/toolchain.cmake",
+  "keywords": [
+    "compound",
+    "target",
+    "nucleo-f401re",
+    "nucleo",
+    "x-nucleo",
+    "ST",
+    "STM",
+    "gcc",
+    "expansion",
+    "board",
+    "Bluetooth",
+    "BLE",
+    "x-nucleo-idb0xa1"
+  ],
+  "similarTo": [
+    "st-ble-shield"
+  ]
+}
